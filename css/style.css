@@ -1,0 +1,91 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #252545;
+  text-align: center;
+}
+
+/* Encabezado */
+header {
+  background-color: #252545;
+  color: white;
+  padding: 25px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  color: #d6d6e7;
+}
+
+/* Contenido principal */
+main {
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+/* Contenedor de colores */
+#paleta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 35px auto;
+  max-width: 950px;
+}
+
+/* Tarjetas de colores */
+.color {
+  width: 150px;
+  height: 190px;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón principal */
+#generar {
+  background-color: #6554e8;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#generar:hover {
+  background-color: #4837c7;
+}
+
+#generar:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 4px;
+}
+
+/* Diseño adaptable a celulares */
+@media (max-width: 600px) {
+  main {
+    padding: 30px 15px;
+  }
+
+  .color {
+    width: 130px;
+    height: 160px;
+  }
+}
