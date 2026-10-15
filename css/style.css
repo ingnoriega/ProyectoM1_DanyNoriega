@@ -131,3 +131,46 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Tarjetas con código HEX legible */
+.color {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.muestra-color {
+  width: 100%;
+  height: 125px;
+}
+
+.codigo-color {
+  display: block;
+  padding: 12px;
+  color: #252545;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Mensaje de confirmación */
+#mensaje {
+  min-height: 25px;
+  margin-top: 20px;
+  color: #176b43;
+  font-weight: bold;
+}
+
+/* Foco visible para los selectores */
+.controles select:focus-visible {
+  outline: 3px solid #6554e8;
+  outline-offset: 3px;
+}
+
+/* Mejorar la transición del botón */
+#generar {
+  transition: background-color 0.2s ease;
+}

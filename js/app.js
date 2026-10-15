@@ -3,6 +3,7 @@ const botonGenerar = document.getElementById("generar");
 const contenedorPaleta = document.getElementById("paleta");
 const selectorCantidad = document.getElementById("cantidad");
 const selectorFormato = document.getElementById("formato");
+const mensaje = document.getElementById("mensaje");
 
 /* Función para generar un color hexadecimal aleatorio */
 function generarColorHEX() {
@@ -65,6 +66,9 @@ function mostrarPaleta() {
 
     contenedorPaleta.appendChild(tarjeta);
   }
+
+  // Mostrar mensaje de confirmación
+  mensaje.textContent = `¡Paleta de ${cantidad} colores generada correctamente!`;
 }
 
 botonGenerar.addEventListener("click", mostrarPaleta);
