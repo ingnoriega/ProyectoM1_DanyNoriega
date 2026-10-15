@@ -43,17 +43,18 @@ ProyectoM1_DanyNoriega/
 
 ## Estructura del repositorio
 
-```text
+`
 ProyectoM1_NombreEstudiante/
 ├── Desarrollo/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
 ├── Documentación/
-│   ├── README.md
-│   ├── Uso_IA.md
-│   └── capturas/
+│ ├── README.md
+│ ├── Uso_IA.md
+│ └── capturas/
 └── README.md
+
 ```
 
 ## Cómo ejecutar el proyecto
@@ -90,8 +91,7 @@ La interfaz utiliza CSS Grid para distribuir las tarjetas. Los controles incluye
 
 ## Despliegue en GitHub Pages
 
-1. Sube el proyecto a GitHub con commits descriptivos.
-2. Publica el contenido de `Desarrollo/` en la raíz de una rama `gh-pages` (o configura un flujo de GitHub Actions que publique esa carpeta).
-3. En el repositorio, entra a **Settings → Pages**.
-4. Si utilizas la rama `gh-pages`, selecciona **Deploy from a branch**, rama `gh-pages`, carpeta `/(root)` y guarda.
-5. Abre el enlace publicado y comprueba que funciona.
+1.publicacion del sitio web:
+
+2.funcionamiento del sitio web en formato gif: https://drive.google.com/drive/folders/1HTKlXP7brMDTX6WX85VTMPfrI-8rQvIB?usp=sharing
+```
