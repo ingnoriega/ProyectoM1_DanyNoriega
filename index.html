@@ -17,11 +17,26 @@
       <h2>Crea tu paleta de colores</h2>
       <p>Descubre nuevas combinaciones de colores.</p>
 
-      <section id="paleta" aria-label="Paleta de colores">
-        <!-- Aquí aparecerán los colores -->
-      </section>
+      <div class="controles">
+        <label for="cantidad">Cantidad de colores:</label>
+        <select id="cantidad">
+          <option value="6">6 colores</option>
+          <option value="8">8 colores</option>
+          <option value="9">9 colores</option>
+        </select>
 
-      <button id="generar" type="button">Generar paleta</button>
+        <label for="formato">Formato:</label>
+        <select id="formato">
+          <option value="HEX">HEX</option>
+          <option value="HSL">HSL</option>
+        </select>
+
+        <button id="generar" type="button">Generar paleta</button>
+      </div>
+
+      <section id="paleta" aria-label="Paleta de colores">
+        <!-- JavaScript creará las tarjetas -->
+      </section>
     </main>
   </body>
 </html>
