@@ -91,7 +91,7 @@ La interfaz utiliza CSS Grid para distribuir las tarjetas. Los controles incluye
 
 ## Despliegue en GitHub Pages
 
-1.publicacion del sitio web:
+1.publicacion del sitio web: https://ingnoriega.github.io/ProyectoM1_DanyNoriega/
 
 2.funcionamiento del sitio web en formato gif: https://drive.google.com/drive/folders/1HTKlXP7brMDTX6WX85VTMPfrI-8rQvIB?usp=sharing
 ```
