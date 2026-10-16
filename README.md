@@ -43,7 +43,7 @@ ProyectoM1_DanyNoriega/
 
 ## Estructura del repositorio
 
-`
+```
 ProyectoM1_NombreEstudiante/
 ├── Desarrollo/
 │ ├── index.html
@@ -60,8 +60,8 @@ ProyectoM1_NombreEstudiante/
 ## Cómo ejecutar el proyecto
 
 1. Descarga o clona el repositorio.
-2. Abre la carpeta `ProyectoM1_NombreEstudiante` en Visual Studio Code.
-3. Abre `Desarrollo/index.html` en un navegador.
+2. Abre la carpeta `ProyectoM1_DanyNoriega` en Visual Studio Code.
+3. Abre `index.html` en un navegador.
 4. No necesitas instalar dependencias.
 
 ## Cómo usar la aplicación
@@ -91,7 +91,10 @@ La interfaz utiliza CSS Grid para distribuir las tarjetas. Los controles incluye
 
 ## Despliegue en GitHub Pages
 
-[1.publicacion del sitio web:m] (https://ingnoriega.github.io/ProyectoM1_DanyNoriega/)
+1.publicacion del sitio web: https://ingnoriega.github.io/ProyectoM1_DanyNoriega/
 
-[2.funcionamiento del sitio web en formato gif:]( https://drive.google.com/drive/folders/1HTKlXP7brMDTX6WX85VTMPfrI-8rQvIB?usp=sharing)
+2.funcionamiento del sitio web en formato gif: https://drive.google.com/drive/folders/1HTKlXP7brMDTX6WX85VTMPfrI-8rQvIB?usp=sharing
+
+```
+
 ```
